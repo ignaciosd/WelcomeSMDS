@@ -36,7 +36,7 @@ def autoplay_audio(file_path: str):
 from streamlit_talk import message
 
 message("My message") 
-message("Hello bot!", is_user=True)  # align's the message to the right
+message("Hello bot! How are you doing today ???", is_user=True)  # align's the message to the right
 
 
 
