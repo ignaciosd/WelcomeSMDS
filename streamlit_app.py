@@ -20,6 +20,7 @@ def autoplay_audio(file_path: str):
             unsafe_allow_html=True,
         )
 
+
 from gtts import gTTS
 import os    
 
