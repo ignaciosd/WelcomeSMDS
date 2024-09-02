@@ -29,8 +29,7 @@ st.title("Smile  📸 😊 📸  Smile")
 #x = st.text_input('What is your name?')
 #st.write(f'# Hi {x} !')
 #img_file_buffer = st.camera_input("## Take a picture 📸")  
-
-img_file_buffer = st.camera_input("Take a picture 📸")  
+#img_file_buffer = st.camera_input("Take a picture 📸")  
 
 if img_file_buffer is not None:
     # To read image file buffer as a PIL Image:
@@ -41,7 +40,7 @@ if img_file_buffer is not None:
 
     # Check the shape of img_array:
     # Should output shape: (height, width, channels)
-    st.write(img_array.shape)
+    #st.write(img_array.shape)
 
     progress_text = "Calculating Awesomeness..."
     my_bar = st.progress(0, text=progress_text)
