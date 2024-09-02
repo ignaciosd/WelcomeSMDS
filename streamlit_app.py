@@ -20,14 +20,25 @@ def autoplay_audio(file_path: str):
             unsafe_allow_html=True,
         )
 
+import pyttsx3
+ 
+# init function to get an engine instance for the speech synthesis 
+engine = pyttsx3.init()
+ 
+# say method on the engine that passing input text to be spoken
+engine.say('Hello sir, how may I help you, sir.')
+ 
+# run and wait method, it processes the voice commands. 
+engine.runAndWait()
 
-from gtts import gTTS
-import os    
 
-tts = gTTS(text="This is the pc speaking", lang='en')
-tts.save("pcvoice.mp3")
+#from gtts import gTTS
+#import os    
+
+#tts = gTTS(text="This is the pc speaking", lang='en')
+#tts.save("pcvoice.mp3")
 # to start the file from python
-os.system("pcvoice.mp3")
+#os.system("pcvoice.mp3")
 
 #import os
 #os.system("echo 'hello world'")
