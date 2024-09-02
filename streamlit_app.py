@@ -28,9 +28,15 @@ def autoplay_audio(file_path: str):
 # to start the file from python
 #os.system("pcvoice.mp3")
 
-import os
-os.system("echo 'hello world'")
-os.system("say 'hello world'") 
+#import os
+#os.system("echo 'hello world'")
+#os.system("say 'hello world'") 
+
+#import streamlit as st
+from streamlit_talk import message
+
+message("My message") 
+message("Hello bot!", is_user=True)  # align's the message to the right
 
 
 
