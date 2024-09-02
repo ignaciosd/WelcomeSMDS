@@ -89,7 +89,10 @@ if img_file_buffer is not None:
 
     # SOUND V2
     #st.write("# Auto-playing Audio!")
-    autoplay_audio("thp-reagan-bomb-russia.mp3")
+    #autoplay_audio("thp-reagan-bomb-russia.mp3")
+    autoplay_audio("country-rock-109318.mp3")
+
+
 
 
 
