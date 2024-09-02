@@ -20,13 +20,17 @@ def autoplay_audio(file_path: str):
             unsafe_allow_html=True,
         )
 
-from gtts import gTTS
-import os    
+#from gtts import gTTS
+#import os    
 
-tts = gTTS(text="This is the pc speaking", lang='en')
-tts.save("pcvoice.mp3")
+#tts = gTTS(text="This is the pc speaking", lang='en')
+#tts.save("pcvoice.mp3")
 # to start the file from python
-os.system("pcvoice.mp3")
+#os.system("pcvoice.mp3")
+
+import os
+os.system("echo 'hello world'")
+os.system("say 'hello world'") 
 
 
 
