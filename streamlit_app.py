@@ -20,23 +20,22 @@ def autoplay_audio(file_path: str):
             unsafe_allow_html=True,
         )
 
-#from gtts import gTTS
-#import os    
+from gtts import gTTS
+import os    
 
-#tts = gTTS(text="This is the pc speaking", lang='en')
-#tts.save("pcvoice.mp3")
+tts = gTTS(text="This is the pc speaking", lang='en')
+tts.save("pcvoice.mp3")
 # to start the file from python
-#os.system("pcvoice.mp3")
+os.system("pcvoice.mp3")
 
 #import os
 #os.system("echo 'hello world'")
 #os.system("say 'hello world'") 
 
 #import streamlit as st
-from streamlit_talk import message
-
-message("My message") 
-message("Hello bot! How are you doing today ???", is_user=True)  # align's the message to the right
+#from streamlit_talk import message
+#message("My message") 
+#message("Hello bot! How are you doing today ???", is_user=True)  # align's the message to the right
 
 
 
