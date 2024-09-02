@@ -21,7 +21,7 @@ def autoplay_audio(file_path: str):
         )
 
 # ----- MAIN CODE
-#st.subheader("Smile  📸 😊 📸  Smile")
+st.subheader("Smile  📸 😊 📸  Smile")
 #st.title("Smile  📸 😊 📸  Smile")
 #st.title("Welcome to the School of Mathematical and Data Science")
 #st.write("# Take a picture 📸")
