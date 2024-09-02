@@ -62,7 +62,7 @@ def autoplay_audio(file_path: str):
 #message("My message") 
 #message("Hello bot! How are you doing today ???", is_user=True)  # align's the message to the right
 
-autoplay_audio("thp-jfk-space-clip.mp3")
+#autoplay_audio("thp-jfk-space-clip.mp3")
 
 
 # ----- MAIN CODE
