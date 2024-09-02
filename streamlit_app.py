@@ -21,15 +21,7 @@ def autoplay_audio(file_path: str):
         )
 
 # ----- MAIN CODE
-st.subheader("Smile  📸 😊 📸  Smile")
-#st.title("Smile  📸 😊 📸  Smile")
-#st.title("Welcome to the School of Mathematical and Data Science")
-#st.write("# Take a picture 📸")
-#st.markdown("**Take a picture** 📸")
-
-#x = st.text_input('What is your name?')
-#st.write(f'# Hi {x} !')
-#img_file_buffer = st.camera_input("## Take a picture 📸")  
+st.subheader("Smile  📸 😊 📸  Smile") 
 img_file_buffer = st.camera_input("")  
 
 if img_file_buffer is not None:
@@ -39,11 +31,7 @@ if img_file_buffer is not None:
     # To convert PIL Image to numpy array:
     img_array = np.array(img)
 
-    # Check the shape of img_array:
-    # Should output shape: (height, width, channels)
-    #st.write(img_array.shape)
-
-    progress_text = "Calculating Awesomeness..."
+    progress_text = "** Calculating Awesomeness... **"
     my_bar = st.progress(0, text=progress_text)
 
     for percent_complete in range(100):
@@ -54,11 +42,8 @@ if img_file_buffer is not None:
 
     st.balloons()
 
-    # SOUND
-    #st.audio("thp-reagan-bomb-russia.mp3", format="audio/mpeg", loop=True, autoplay=True)
-
     # SOUND V2
-    st.write("# Auto-playing Audio!")
+    #st.write("# Auto-playing Audio!")
     autoplay_audio("thp-reagan-bomb-russia.mp3")
 
 
