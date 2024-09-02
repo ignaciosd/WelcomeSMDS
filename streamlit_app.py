@@ -22,8 +22,8 @@ def autoplay_audio(file_path: str):
 
 # ----- MAIN CODE
 #st.title("Welcome to the School of Mathematical and Data Science")
-st.write("# Take a picture 📸")
-st.write("# Take a picture 📸")
+#st.write("# Take a picture 📸")
+st.markdown("**Take a picture** 📸")
 
 #x = st.text_input('What is your name?')
 #st.write(f'# Hi {x} !')
