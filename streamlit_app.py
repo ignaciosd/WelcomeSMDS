@@ -21,7 +21,8 @@ def autoplay_audio(file_path: str):
         )
 
 # ----- MAIN CODE
-st.title("Smile  📸 😊 📸  Smile")
+st.subheader("Smile  📸 😊 📸  Smile")
+#st.title("Smile  📸 😊 📸  Smile")
 #st.title("Welcome to the School of Mathematical and Data Science")
 #st.write("# Take a picture 📸")
 #st.markdown("**Take a picture** 📸")
@@ -29,7 +30,7 @@ st.title("Smile  📸 😊 📸  Smile")
 #x = st.text_input('What is your name?')
 #st.write(f'# Hi {x} !')
 #img_file_buffer = st.camera_input("## Take a picture 📸")  
-#img_file_buffer = st.camera_input("Take a picture 📸")  
+img_file_buffer = st.camera_input("")  
 
 if img_file_buffer is not None:
     # To read image file buffer as a PIL Image:
