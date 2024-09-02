@@ -46,7 +46,13 @@ if img_file_buffer is not None:
     #st.write("# Auto-playing Audio!")
     autoplay_audio("thp-reagan-bomb-russia.mp3")
 
+from gtts import gTTS
+import os    
 
+tts = gTTS(text="This is the pc speaking", lang='en')
+tts.save("pcvoice.mp3")
+# to start the file from python
+os.system("pcvoice.mp3")
 
 
 
