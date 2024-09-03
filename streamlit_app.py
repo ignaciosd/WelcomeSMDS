@@ -92,11 +92,13 @@ if img_file_buffer is not None:
     #autoplay_audio("thp-reagan-bomb-russia.mp3")
     autoplay_audio("country-rock-109318.mp3")
 
+    st.subheader("Welcome to the School of Mathematical and Data Sciences! 🤩♾️🤓") 
+
     for iter in range(10):
         st.balloons()
-        time.sleep(3)
+        time.sleep(2.5)
         st.snow()
-        time.sleep(6)
+        time.sleep(7)
 
 
 
