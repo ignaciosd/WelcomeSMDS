@@ -83,7 +83,7 @@ if img_file_buffer is not None:
         time.sleep(0.01)
         my_bar.progress(percent_complete + 1, text=progress_text)
     time.sleep(1)
-    my_bar.progress(percent_complete + 1, text="## AWESOMENESS level -> 100%")
+    my_bar.progress(percent_complete + 1, text="**AWESOMENESS level -> 100% **")
 
     st.balloons()
 
@@ -91,6 +91,8 @@ if img_file_buffer is not None:
     #st.write("# Auto-playing Audio!")
     #autoplay_audio("thp-reagan-bomb-russia.mp3")
     autoplay_audio("country-rock-109318.mp3")
+
+    st.snow()
 
 
 
