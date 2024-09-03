@@ -81,7 +81,7 @@ if img_file_buffer is not None:
     my_bar = st.progress(0, text=progress_text)
 
     for percent_complete in range(100):
-        time.sleep(0.01)
+        time.sleep(0.015)
         my_bar.progress(percent_complete + 1, text=progress_text)
     time.sleep(1)
     my_bar.progress(percent_complete + 1, text="")
@@ -94,9 +94,9 @@ if img_file_buffer is not None:
 
     for iter in range(10):
         st.balloons()
-        time.sleep(1)
+        time.sleep(3)
         st.snow()
-        time.sleep(1)
+        time.sleep(3)
 
 
 
