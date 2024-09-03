@@ -85,7 +85,7 @@ if img_file_buffer is not None:
         my_bar.progress(percent_complete + 1, text=progress_text)
     time.sleep(1)
     my_bar.progress(percent_complete + 1, text="")
-    st.subheader("AWESOMENESS level... 100%") 
+    st.subheader("AWESOMENESS level = 100%") 
     
     # SOUND V2
     #st.write("# Auto-playing Audio!")
