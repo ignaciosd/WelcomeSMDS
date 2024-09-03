@@ -76,6 +76,7 @@ if img_file_buffer is not None:
     # To convert PIL Image to numpy array:
     img_array = np.array(img)
 
+    #progress_text = "** Calculating Awesomeness... **"
     progress_text = "** Calculating Awesomeness... **"
     my_bar = st.progress(0, text=progress_text)
 
@@ -85,14 +86,16 @@ if img_file_buffer is not None:
     time.sleep(1)
     my_bar.progress(percent_complete + 1, text="**AWESOMENESS level -> 100% **")
 
-    st.balloons()
-
     # SOUND V2
     #st.write("# Auto-playing Audio!")
     #autoplay_audio("thp-reagan-bomb-russia.mp3")
     autoplay_audio("country-rock-109318.mp3")
 
-    st.snow()
+    for iter in range(10):
+        st.balloons()
+        time.sleep(1)
+        st.snow()
+        time.sleep(1)
 
 
 
