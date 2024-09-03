@@ -92,7 +92,7 @@ if img_file_buffer is not None:
     #autoplay_audio("thp-reagan-bomb-russia.mp3")
     autoplay_audio("country-rock-109318.mp3")
 
-    st.subheader("Welcome to the School of Mathematical and Data Sciences! 🤩♾️🤓") 
+    st.subheader("_Welcome_ to the :blue[School of Mathematical and Data Sciences]! 🤩♾️🤓") 
 
     for iter in range(10):
         st.balloons()
