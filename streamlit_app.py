@@ -96,7 +96,7 @@ if img_file_buffer is not None:
         st.balloons()
         time.sleep(3)
         st.snow()
-        time.sleep(3)
+        time.sleep(6)
 
 
 
