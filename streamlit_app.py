@@ -77,15 +77,16 @@ if img_file_buffer is not None:
     img_array = np.array(img)
 
     #progress_text = "** Calculating Awesomeness... **"
-    progress_text = "** Calculating Awesomeness... **"
+    progress_text = "Calculating..."
     my_bar = st.progress(0, text=progress_text)
 
     for percent_complete in range(100):
         time.sleep(0.01)
         my_bar.progress(percent_complete + 1, text=progress_text)
     time.sleep(1)
-    my_bar.progress(percent_complete + 1, text="**AWESOMENESS level -> 100% **")
-
+    my_bar.progress(percent_complete + 1, text="")
+    st.subheader("AWESOMENESS level... 100%") 
+    
     # SOUND V2
     #st.write("# Auto-playing Audio!")
     #autoplay_audio("thp-reagan-bomb-russia.mp3")
