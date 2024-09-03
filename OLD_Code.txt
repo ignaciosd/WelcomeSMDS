@@ -14,6 +14,49 @@
 # SOUND
     #st.audio("thp-reagan-bomb-russia.mp3", format="audio/mpeg", loop=True, autoplay=True)
 
+#from streamlit_TTS import auto_play, text_to_speech, text_to_audio
+#from gtts.lang import tts_langs
+#langs=tts_langs().keys()
+
+#get the audio first
+#audio=text_to_audio("Choose a language, type some text, and click 'Speak it out!'.",language='en')
+#then play it
+#auto_play(audio)
+#lang=st.selectbox("Choose a language",options=langs)
+#text=st.text_input("Choose a text to speak out:")
+#speak=st.button("Speak it out!")
+
+#if lang and text and speak:
+#    #plays the audio directly
+#    text_to_speech(text=text, language=lang)
+
+#import pyttsx3
+# init function to get an engine instance for the speech synthesis 
+#engine = pyttsx3.init()
+# say method on the engine that passing input text to be spoken
+#engine.say('Hello sir, how may I help you, sir.')
+# run and wait method, it processes the voice commands. 
+#engine.runAndWait()
+
+#from gtts import gTTS
+#import os    
+
+#tts = gTTS(text="This is the pc speaking", lang='en')
+#tts.save("pcvoice.mp3")
+# to start the file from python
+#os.system("pcvoice.mp3")
+
+#import os
+#os.system("echo 'hello world'")
+#os.system("say 'hello world'") 
+
+#import streamlit as st
+#from streamlit_talk import message
+#message("My message") 
+#message("Hello bot! How are you doing today ???", is_user=True)  # align's the message to the right
+
+#autoplay_audio("thp-jfk-space-clip.mp3")
+
 
 
 
